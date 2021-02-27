@@ -1,6 +1,9 @@
 # Introduction
 Based on Stephen Grider's course. To deploy a React app using Google GKE.
 
+## Architecture
+![multi-k8s](/diagrams/multi-k8s.jpg)
+
 ## Travis deployment process
 1. Create GCP service account for Travis
 2. Encrypt service account using Travis's CLI
